@@ -90,7 +90,6 @@ include "php actions/db_connect.php";
                         <?php endif; ?>
                         <hr>
                         <h3 class="card-title"><?= $title; ?></h3>
-                        <h3 class="card-title"><?= $title; ?></h3>
                         <h5><?= $subtitle ?></h5>
                         <hr>
                         <p><?php
