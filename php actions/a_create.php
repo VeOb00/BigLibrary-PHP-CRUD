@@ -87,12 +87,12 @@ if ($_POST) {
     $sql = "insert into media (title, subtitle, author_fn, author_ln, band_name, media_type, description, publisher, publisher_address, publisher_size, date_published, availability, image, isbn13, stars)
 values ($title, $subtitle, $author_fn, $author_ln, $band_name, $media_type, $description, $publisher, $publisher_address, $publisher_size, $date_published, '$availability', '$basename', $isbn13, $stars)";
     if (mysqli_query($conn, $sql)) {
-        echo "<div class=\"container\">
+        echo "<div class=\"container move-footer\">
                 <h3 class='text-success'>Entry successfully added to database!</h3>
                 <p>You are being redirected to home page</p></div>";
         header("Refresh:3; url=../index.php");
     } else {
-        echo "<div class=\"container\"><h3 class='text-danger'>There has been an error, please try again later!</h3>
+        echo "<div class=\"container move-footer\"><h3 class='text-danger'>There has been an error, please try again later!</h3>
                <p>go back to <a href='../index.php'>homepage</a></p></div>
                <p>$sql</p>";
     }

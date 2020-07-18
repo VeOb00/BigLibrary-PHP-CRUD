@@ -55,12 +55,12 @@ $id = $_POST['id'];
 $sql = "delete from media where id = $id";
 
 if (mysqli_query($conn, $sql)) {
-    echo "<div class=\"container\">
+    echo "<div class=\"container move-footer\">
                 <h3 class='text-success'>Entry successfully deleted!</h3>
                 <p>You are being redirected to the edit content page</p></div>";
     header("Refresh:3; url=../edit-index.php");
 } else {
-    echo "<div class=\"container\"><h3 class='text-danger'>There has been an error, please try again later!</h3>
+    echo "<div class=\"container move-footer\"><h3 class='text-danger'>There has been an error, please try again later!</h3>
                <p>go back to <a href='../index.php'>homepage</a></p></div>";
 }
 $conn->close();
