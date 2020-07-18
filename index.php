@@ -93,7 +93,8 @@ include "php actions/db_connect.php";
                         <h3 class="card-title"><?= $title; ?></h3>
                         <h5><?= $subtitle ?></h5>
                         <hr>
-                        <p><?php
+                        <p>
+                            <?php
                             if (isset($author_fn) && $media_type != "video") {
                                 echo "Author: " . $author_fn . " " . $author_ln;
                             } else if  (isset($band_name)) {
