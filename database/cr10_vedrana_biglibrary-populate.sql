@@ -13,7 +13,7 @@ insert into media
  true,
  "the subtile art.jpg",
  "978-0062641540",
- "In this generation-defining self-help guide, a superstar blogger cuts through the crap to show us how to stop trying to be \"positive\" all the time so that we can truly become better, happier people. For decades, we've been told that positive thinking is the key to a happy, rich life. \"F**k positivity,\" Mark Manson says. \"Let's be honest, shit is f**ked and we have to live with it.\" In his wildly popular Internet blog, Manson doesn’t sugarcoat or equivocate. He tells it like it is—a dose of raw, refreshing, honest"
+ "In this generation-defining self-help guide, a superstar blogger cuts through the crap to show us how to stop trying to be \"positive\" all the time so that we can truly become better, happier people. For decades, we've been told that positive thinking is the key to a happy, rich life. \"F**k positivity,\" Mark Manson says. \"Let's be honest, shit is f**ked and we have to live with it.\" In his wildly popular Internet blog, Manson doesn’t sugarcoat or equivocate. He tells it like it is—a dose of raw, refreshing, honest."
  ),
  ("The Book You Wish Your Parents Had Read", "(and Your Children Will Be Glad That You Did)",
   "Phillipa", "Perry",

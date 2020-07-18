@@ -63,6 +63,7 @@ $media_type = $_GET["media_type"];
                 <div class="col-md-6 mb-3">
                     <label for="subtitle">Subtitle:</label>
                     <input type="text" class="form-control" id="subtitle" name="subtitle" value="">
+                    <small class="form-text text-muted">Optional</small>
                 </div>
             </div>
             <?php if ($media_type == "book") : ?>
@@ -130,7 +131,8 @@ $media_type = $_GET["media_type"];
                 <?php if ($media_type == "book") : ?>
                     <div class="col-md-6 mb-3">
                         <label for="isbn13">ISBN-13:</label>
-                        <input type="text" class="form-control" name="isbn13" value="">
+                        <input type="text" class="form-control" name="isbn13" value="" placeholder="978-0062641540" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                        <small class="form-text text-muted">Format requested: 978-0062641540</small>
                     </div>
                 <?php endif; ?>
             </div>
@@ -152,7 +154,7 @@ $media_type = $_GET["media_type"];
                     <div class="col-md-12 mb-3">
                         <label for="stars">Stars:</label>
                         <input type="text" class="form-control" name="stars" value=""></input>
-                        <small class="form-text text-muted">Please note, multiple stars are filled out in single line seperated by commas.</small>
+                        <small class="form-text text-muted">Please note, multiple stars are filled out in single line separated by commas.</small>
                     </div>
                 </div>
             <?php endif; ?>
@@ -160,12 +162,14 @@ $media_type = $_GET["media_type"];
                 <div class="col-md-12 mb-3">
                     <label for="description">Short description</label>
                     <textarea class="form-control" id="description" rows="6" name="description"></textarea>
+                    <small class="form-text text-muted">Optional</small>
                 </div>
             </div>
             <div class="form-row mt-3">
                 <div class="col-md-6 mb-3">
                     <label for="image">Upload image:</label>
                     <input type="file" id="image" name="image">
+                    <small class="form-text text-muted">Optional</small>
                 </div>
             </div>
             <div class="form-group mt-3">

@@ -133,6 +133,7 @@ include "php actions/db_connect.php";
                 <div class="col-md-6 mb-3">
                     <label for="subtitle">Subtitle:</label>
                     <input type="text" class="form-control" id="subtitle" name="subtitle" value="<?= $subtitle ?>">
+                    <small class="form-text text-muted">Optional</small>
                 </div>
             </div>
             <div class="form-row">
@@ -183,8 +184,9 @@ include "php actions/db_connect.php";
                 if (isset($isbn13))
                     echo "
                     <div class=\"col-md-6 mb-3\">
-                        <label for=\"isbn13\">isbn-13:</label>
-                        <input type=\"text\" class=\"form-control\" name=\"isbn13\" value=\"$isbn13\">
+                        <label for=\"isbn13\">ISBN-13:</label>
+                        <input type=\"text\" class=\"form-control\" name=\"isbn13\" value=\"$isbn13\" placeholder=\"978-0062641540\" pattern=\"[0-9]{3}-[0-9]{2}-[0-9]{3}\">
+                        <small class=\"form-text text-muted\">Format requested: 978-0062641540</small>
                     </div>"
                 ?>
 
@@ -224,16 +226,16 @@ include "php actions/db_connect.php";
             <div class="form-row">
                 <div class="col-md-12 mb-3">
                     <label for="description">Short description</label>
-                    <!--                    <input type="text" class="form-control" id="description" name="description"-->
-                    <!--                           value="--><? //= $description ?><!--">-->
-                    <textarea class="form-control" id="description" rows="6"
-                              name="description"><?php echo htmlspecialchars($description); ?></textarea>
+
+                    <textarea class="form-control" id="description" rows="6" name="description"><?php echo htmlspecialchars($description); ?></textarea>
+                    <small class="form-text text-muted">Optional</small>
                 </div>
             </div>
             <div class="form-row mt-3">
                 <div class="col-md-6 mb-3">
                     <label for="image">Upload image:</label>
                     <input type="file" id="image" name="image">
+                    <small class="form-text text-muted">Optional</small>
                 </div>
             </div>
             <div class="form-group mt-3">
