@@ -37,6 +37,9 @@
                     <a class="dropdown-item" href="add-media.php?media_type=video">Add Video</a>
                 </div>
             </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="publishers.php">Publisher info</a>
+            </li>
         </ul>
     </div>
 </nav>
