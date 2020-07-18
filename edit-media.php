@@ -185,7 +185,7 @@ include "php actions/db_connect.php";
                     echo "
                     <div class=\"col-md-6 mb-3\">
                         <label for=\"isbn13\">ISBN-13:</label>
-                        <input type=\"text\" class=\"form-control\" name=\"isbn13\" value=\"$isbn13\" placeholder=\"978-0062641540\" pattern=\"[0-9]{3}-[0-9]{2}-[0-9]{3}\">
+                        <input type=\"text\" class=\"form-control\" name=\"isbn13\" value=\"$isbn13\">
                         <small class=\"form-text text-muted\">Format requested: 978-0062641540</small>
                     </div>"
                 ?>
