@@ -111,7 +111,7 @@ include "php actions/db_connect.php";
                     ?>
                 </dd>
                 <?php if (isset($stars) && $media_type == "video") echo "<dt>Stars: </dt><dd>" . $stars . "</dd>"; ?>
-                <?php if (isset($isbn13) && $media_type == "book") echo "<dt>isbn-13: </dt><dd>" . $isbn13 . "</dd>"; ?>
+                <?php if (isset($isbn13) && $media_type == "book") echo "<dt>ISBN-13: </dt><dd>" . $isbn13 . "</dd>"; ?>
             </dl>
             <hr>
             <p> <?= $description ?> </p>
