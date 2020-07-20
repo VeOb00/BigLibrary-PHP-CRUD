@@ -72,7 +72,7 @@ values
  "2019-09-27",
  true,
  "abbey road.jpg",
- "The new Abbey Road release features the new stereo album mix, sourced directly from the original eight-track session tapes. To produce the mix, Giles Martin working with Sam Okell, was guided by the album’s original stereo mix supervised by his father, George Martin"
+ "The new Abbey Road release features the new stereo album mix, sourced directly from the original eight-track session tapes. To produce the mix, Giles Martin working with Sam Okell, was guided by the album’s original stereo mix supervised by his father, George Martin."
  );
 
 

@@ -131,7 +131,7 @@ $media_type = $_GET["media_type"];
                 <?php if ($media_type == "book") : ?>
                     <div class="col-md-6 mb-3">
                         <label for="isbn13">ISBN-13:</label>
-                        <input type="text" class="form-control" name="isbn13" value="" placeholder="978-0062641540" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                        <input type="text" class="form-control" name="isbn13" value="" placeholder="978-0062641540" pattern="[0-9]{3}-[0-9]{10}">
                         <small class="form-text text-muted">Format requested: 978-0062641540</small>
                     </div>
                 <?php endif; ?>

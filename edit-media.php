@@ -124,7 +124,7 @@ include "php actions/db_connect.php";
 
     <div class="row">
         <form action="php%20actions/a_update.php" class="col-md-8" method="post" enctype="multipart/form-data">
-            <input type="hidden" name="id" , value="<?= $id ?>">
+            <input type="hidden" name="id" value="<?= $id ?>">
             <div class="form-row">
                 <div class="col-md-6 mb-3">
                     <label for="title">Title:</label>
